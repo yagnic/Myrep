@@ -1,0 +1,48 @@
+
+#sn_main {
+    border: none;
+    background-color: #424344;
+    position: relative;
+}
+
+.sn_point {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #c6e788;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+
+.sn_food {
+    background-image: linear-gradient(180deg, rgba(255,255,255,0) 40%, rgb(6, 211, 98) 40%, rgb(100, 54, 126) 60%, rgba(255,255,255,0) 60%), linear-gradient(90deg, rgba(255,255,255,0) 40%, #f00 40%, #fff 60%, rgba(255,255,255,0) 60%), linear-gradient(45deg, rgba(255,255,255,0) 43%, #f00 43%, #fff 57%, rgba(255,255,255,0) 57%), linear-gradient(135deg, rgba(255,255,255,0) 43%, #f00 43%, #fff 57%, rgba(255,255,255,0) 57%);
+    border-radius: 50%;
+    -webkit-transform-origin: left -20px;
+    -moz-transform-origin: left -20px;
+    -ms-transform-origin: left -20px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+
+#sn_info {
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+#sn_options {
+    font-size: 16px;
+}
+
+.sn_reload {
+    margin-left:10px;
+}
+
+.sn_input {
+    width: 60px;
+}
+
+label[for=sn_auto] {
+    font-size: 16px;
+}
